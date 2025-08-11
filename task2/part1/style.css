@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(250, 235, 215, 0.936);
+}
+#parent{
+    background-color:aliceblue ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 520px;
+    height: 484px;
+    margin: 220px 550px;
+    border-radius: 15px;
+}
+.item1{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+h4{
+    width: 389px;
+    height: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: #0201138d;
+    margin: 35px 50px;
+}
+#h11{
+    width: 200px;
+    height: 90px;
+    font-weight: bolder;
+    color: #000000;
+    margin: 0 50px;
+}
+#p1{
+    width: 250px;
+    height: 70px;
+    color: #0000007a;
+    font-weight: bold;
+    margin: 40px 50px;
+}
+#price{
+    display: flex;
+    flex-direction: row;
+}
+#h12{
+    
+    width: 100px;
+    height: 20px;
+    font-weight: bolder;
+    color: #228838;
+    margin:5px 50px;
+}
+#p2{
+    text-decoration: line-through;
+    color: #00000080; 
+}
+button{
+    background-color: #26883be3;
+    border-color: #2e92432d;
+    margin: 30px 50px;
+    width: 250px;
+    height: 10px;
+    border-width: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: aliceblue;
+    border-style: solid;
+    font-size:medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
