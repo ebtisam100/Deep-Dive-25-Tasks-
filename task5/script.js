@@ -30,5 +30,5 @@ form.addEventListener("submit", function(e) {
        <h2>Welcome, ${firstNameVal} ${surnameVal}!</h2>
        <p>Email: ${emailVal}</p>
        <p>Gender: ${genderVal}</p>
-       </div>`;
-});
+       </div>`;});
+
