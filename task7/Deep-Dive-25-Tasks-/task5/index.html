@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Document</title>
+</head>
+<body>
+    
+    <div id="message"></div>
+
+    <div id="div">
+        <h1>Hi, Welcome to Luxiria!</h1>
+        <p id="p1">Register your account</p>
+        <form id="form">
+            <div id="form1">
+                <label for="f-name">First name</label>           
+                <div class="input-box"> 
+                <i class="fa-solid fa-user-pen left"></i>
+                <input id="f-name" type="text" placeholder="sassasas" required>
+                </div>
+                
+                <label for="m-e">Mobile number or email address</label>            
+                <div class="input-box">   
+                <i class="fa-regular fa-envelope left"></i>            
+                <input id="m-e" type="email" placeholder="isisisks@gmail.com" required>
+                </div>
+                
+                <label for="pass">Password</label>
+                <div class="input-box"> 
+                <i class="fa-solid fa-lock left"></i>
+                <input id="pass" type="password" placeholder=".........." required>
+                <i class="fa-solid fa-eye-slash right" id="togglePassword"></i>
+                </div>
+            </div>
+            <div id="form2">
+                <label for="surname">Surname</label>
+                <div class="input-box"> 
+                <i class="fa-solid fa-user-pen left"></i>
+                <input id="surname" type="text" placeholder="sshahssa">
+                </div>
+                
+                <label for="gender">Gender</label>
+                <div class="input-box"> 
+                <i class="fa-solid fa-user left"></i>          
+                <select id="gender">
+                <option>male</option>
+                <option>female</option>
+                </select>
+                </div>
+                
+                <label for="c-pass">Confirm Password</label>
+                <div class="input-box"> 
+                <i class="fa-solid fa-lock left"></i>
+                <input id="c-pass" type="text" placeholder="1012468" >
+                <i class="fa-solid fa-eye right" id="togglePassword"></i>
+                </div>
+            </div>
+            <button type="submit" id="register">Register</button>
+        </form>
+        
+        <p id="p2"><span>Or login with</span></p>
+        <button id="signup"><i class="fa-brands fa-google" style="color:black"></i>sign up with google</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
