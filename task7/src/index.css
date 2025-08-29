@@ -1,5 +1,5 @@
-.cards{
-    display: "flex";
-    flex-wrap: "wrap";
-    justify-content: "center";
-  }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
